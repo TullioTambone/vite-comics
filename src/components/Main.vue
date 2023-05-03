@@ -35,16 +35,17 @@
     <main>
         <div  class="container">Contenuto post</div>
         <div id="footer-main">
-            <ul>
-                <li v-for="(element, index) in images" :key="index">
-                    <img :src="element.url" alt="">
-                    {{ element.title }}
-                </li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li v-for="(element, index) in images" :key="index">
+                        <img :src="element.url" alt="">
+                        {{ element.title }}
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
 </template>
 
-<style lang="scss">
-
+<style>
 </style>

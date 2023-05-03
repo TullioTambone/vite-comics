@@ -7,6 +7,12 @@
     color: rgb(12,124,236);
     border-bottom: 5px solid rgb(12,124,236);
 }
+
+.my-position{
+    position: absolute;
+    top: 135px;
+}
+//------------------------------------------------header
 header{
     nav{
         display: flex;
@@ -44,7 +50,7 @@ header{
         }
     }
 }
-
+//------------------------------------------------------------main
 main{
     background-color: #333;
     div{
@@ -54,11 +60,76 @@ main{
     #footer-main{
         background-color: rgb(12,124,236);
         width: 100%;
-        padding: 0 5rem;
+        padding: 2em 5rem;
         ul{
             display: flex;
+            justify-content: space-between;
             li{
                 list-style-type: none;
+                display: flex;
+                align-items: center;
+                font-size: 10px;
+                
+                img{
+                    width: 50px;
+                    display: block;
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+}
+//------------------------------------------------------------footer
+footer{
+    #up-footer{
+        background-image: url('../../public/vue-dc-comics-1/img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 4rem 0;
+        .container{
+            display: flex;
+            img{
+                width: 450px;
+                top: 253px;
+                position: absolute;
+                right: 250px;
+            }
+            #footer-list{
+                position: relative;
+                display: flex;
+                ul{
+                    color: white;
+                    h3{
+                        font-size: 20px;
+                    }
+                    li{
+                        list-style-type: none;
+                        color: gray;
+                        font-size: 10px;
+                        cursor: pointer;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #down-footer{
+        background-color: rgb(48,48,48);
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem;
+            div{
+                button{
+                    background-color: transparent;
+                    color: white;
+                    border: 2px solid rgb(12,124,236);
+                    padding: 5px 10px
+                }
             }
         }
     }
