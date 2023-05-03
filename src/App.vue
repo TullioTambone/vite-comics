@@ -1,11 +1,16 @@
 <script>
+    export default{
+        name: 'App',
+        components: {
 
+        }
+    }
 </script>
 
 <template>
   
 </template>
 
-<style scoped>
+<style lang="scss">
 
 </style>
