@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: rgb(12,124,236);
+    border-bottom: 5px solid rgb(12,124,236);
+}
+header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        img{
+            display: block;
+            width: 80px;
+        }
+
+        div{
+            ul{
+                display: flex;
+                height: 80px;
+
+                li{
+                    margin: 0 10px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    list-style-type: none;
+                    padding: 35px 0;
+                    
+                    a{
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        color: rgb(12,124,236);
+                        border-bottom: 5px solid rgb(12,124,236);
+                    }
+                }
+            }
+        }
+    }
+}
