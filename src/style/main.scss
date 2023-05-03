@@ -17,7 +17,7 @@ header{
 
         img{
             display: block;
-            width: 80px;
+            width: 100px;
         }
 
         div{
@@ -40,6 +40,25 @@ header{
                         border-bottom: 5px solid rgb(12,124,236);
                     }
                 }
+            }
+        }
+    }
+}
+
+main{
+    background-color: #333;
+    div{
+        color: white;
+        width: 100%;
+    }
+    #footer-main{
+        background-color: rgb(12,124,236);
+        width: 100%;
+        padding: 0 5rem;
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
             }
         }
     }

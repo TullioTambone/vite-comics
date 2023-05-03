@@ -69,7 +69,7 @@
 
 <template>
     <header>
-        <nav>
+        <nav class="container">
             <img src="/vue-dc-comics-1/img/dc-logo.png" alt="">
             <div>
                 <ul>
