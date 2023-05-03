@@ -5,7 +5,7 @@
 }
 .active{
     color: rgb(12,124,236);
-    border-bottom: 5px solid rgb(12,124,236);
+    border-bottom: 3px solid rgb(12,124,236);
 }
 
 .my-position{
@@ -15,17 +15,14 @@
 //------------------------------------------------header
 header{
     nav{
+        height: 100px;
         display: flex;
         justify-content: space-between;
-        padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-
+        align-items: center;
         img{
             display: block;
-            width: 100px;
+            height: 80px;
         }
-
         div{
             ul{
                 display: flex;
@@ -33,6 +30,7 @@ header{
 
                 li{
                     margin: 0 10px;
+                    height: 98px;
                     font-size: 12px;
                     font-weight: bold;
                     list-style-type: none;
@@ -43,7 +41,7 @@ header{
                     }
                     &:hover{
                         color: rgb(12,124,236);
-                        border-bottom: 5px solid rgb(12,124,236);
+                        border-bottom: 3px solid rgb(12,124,236);
                     }
                 }
             }
@@ -61,6 +59,8 @@ main{
         background-color: rgb(12,124,236);
         width: 100%;
         padding: 2em 5rem;
+        position: relative;
+        z-index: 99;
         ul{
             display: flex;
             justify-content: space-between;
@@ -90,10 +90,11 @@ footer{
         .container{
             display: flex;
             img{
+                position: absolute;
                 width: 450px;
                 top: 253px;
-                position: absolute;
                 right: 250px;
+                z-index: 1;
             }
             #footer-list{
                 position: relative;
@@ -118,7 +119,8 @@ footer{
     }
     #down-footer{
         background-color: rgb(48,48,48);
-
+        position: relative;
+        z-index: 99;
         .container{
             display: flex;
             justify-content: space-between;
@@ -129,6 +131,21 @@ footer{
                     color: white;
                     border: 2px solid rgb(12,124,236);
                     padding: 5px 10px
+                }
+            }
+            div{
+                span{
+                    color: rgb(12,124,236);
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-right:1rem ;
+                }
+                img{
+                    margin: 0 0.5rem;
+                    &:hover{
+                        filter: brightness(100);
+                        cursor: pointer;
+                    }
                 }
             }
         }

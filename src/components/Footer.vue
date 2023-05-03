@@ -137,6 +137,11 @@
                     <span>
                         FOLLOW US
                     </span>
+                    <img src="/vue-dc-comics-1/img/footer-facebook.png" alt="">
+                    <img src="/vue-dc-comics-1/img/footer-twitter.png" alt="">
+                    <img src="/vue-dc-comics-1/img/footer-youtube.png" alt="">
+                    <img src="/vue-dc-comics-1/img/footer-pinterest.png" alt="">
+                    <img src="/vue-dc-comics-1/img/footer-periscope.png" alt="">
                 </div>
             </div>
         </div>
