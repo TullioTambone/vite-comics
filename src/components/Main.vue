@@ -93,9 +93,9 @@
     <main>
         <!--immagine top main-->
         <div class="container-fluid"></div>
-        <div></div>
-        <div></div>
         <div class="container" id="head-main">
+            <div class="my-btn-1">CURRENT SERIES</div>
+            <div class="my-btn-2">LOAD MORE</div>
             <CardMainComp v-for="(element, index) in DComics" :key="index" :img="element.thumb" :textContent="element.series"/>
         </div>
         <MainFootComp/>
@@ -103,11 +103,32 @@
 </template>
 
 <style lang="scss" scoped>
-    #head-main{
-        color: white;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5em 2em;
-        gap: 15px;
-    }
+.my-btn-1{
+    position: absolute;
+    top: -30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(12,124,236);
+    padding: 10px 25px;
+}
+
+.my-btn-2{
+    position: absolute;
+    background-color: rgb(12,124,236);
+    color: white;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 40px;
+}
+#head-main{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5em 2em;
+    gap: 15px;
+}
 </style>
