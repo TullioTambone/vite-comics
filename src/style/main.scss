@@ -50,12 +50,17 @@ header{
 }
 //------------------------------------------------------------main
 main{
-    background-color: #333;
-    #head-main{
-        color: white;
+    background-color: rgb(28,28,28);
+    .container-fluid{
+        background-image: url(/vue-dc-comics-1/img/jumbotron.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
         width: 100%;
+        
     }
-    
+   
 }
 //------------------------------------------------------------footer
 footer{
@@ -64,16 +69,15 @@ footer{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        padding: 4rem 0;
-        .container{
+
+        .up-foot-container{
+            background-image: url(/vue-dc-comics-1/img/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: center right;
             display: flex;
-            img{
-                position: absolute;
-                width: 450px;
-                top: 253px;
-                right: 250px;
-                z-index: 1;
-            }
+            height: 400px;
+            padding: 4em;
+
             #footer-list{
                 position: relative;
                 display: flex;
@@ -97,8 +101,6 @@ footer{
     }
     #down-footer{
         background-color: rgb(48,48,48);
-        position: relative;
-        z-index: 99;
         .container{
             display: flex;
             justify-content: space-between;

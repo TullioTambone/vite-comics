@@ -51,8 +51,6 @@
     color: white;
     width: 100%;
     padding: 2em 5rem;
-    position: relative;
-    z-index: 99;
     ul{
         display: flex;
         justify-content: space-between;

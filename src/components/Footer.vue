@@ -115,7 +115,7 @@
 <template>
     <footer>
         <div id="up-footer">
-            <div class="container">
+            <div class="up-foot-container">
                 <div id="footer-list">
                     <ul v-for="(element, index) in footerList" :key="index" 
                     :class="(element.control == true) ? 'my-position' : ''">
@@ -125,7 +125,6 @@
                         </li>
                     </ul>
                 </div>
-                <img src="/vue-dc-comics-1/img/dc-logo-bg.png" alt="">
             </div>
         </div>
         <div id="down-footer">
