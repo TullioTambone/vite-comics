@@ -134,6 +134,8 @@ footer{
                 }
             }
             div{
+                display: flex;
+                align-items: center;
                 span{
                     color: rgb(12,124,236);
                     font-weight: bold;
