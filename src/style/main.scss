@@ -51,33 +51,11 @@ header{
 //------------------------------------------------------------main
 main{
     background-color: #333;
-    div{
+    #head-main{
         color: white;
         width: 100%;
     }
-    #footer-main{
-        background-color: rgb(12,124,236);
-        width: 100%;
-        padding: 2em 5rem;
-        position: relative;
-        z-index: 99;
-        ul{
-            display: flex;
-            justify-content: space-between;
-            li{
-                list-style-type: none;
-                display: flex;
-                align-items: center;
-                font-size: 10px;
-                
-                img{
-                    width: 50px;
-                    display: block;
-                    margin-right: 1em;
-                }
-            }
-        }
-    }
+    
 }
 //------------------------------------------------------------footer
 footer{
